@@ -1,0 +1,4 @@
+[
+  {"finding_id":"tag-001","date":"2026-05-01","resource_id":"i-0missingtenant","aws_account_id":"666666666666","service":"Amazon EC2","resource_type":"instance","missing_keys":["tenant","tenant_id","product_line"],"estimated_daily_cost":275.9,"remediation":"Apply required AWS cost allocation tags or add resource to an approved shared cost pool.","status":"open"},
+  {"finding_id":"tag-002","date":"2026-05-02","resource_id":"pod/unknown-worker","aws_account_id":"111111111111","service":"Amazon Elastic Kubernetes Service","resource_type":"pod","missing_keys":["finops.tenant","finops.tenant_id"],"estimated_daily_cost":42.3,"remediation":"Add required Kubernetes labels to the workload manifest.","status":"open"}
+]

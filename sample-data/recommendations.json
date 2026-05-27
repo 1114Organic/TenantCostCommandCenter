@@ -1,0 +1,5 @@
+[
+  {"recommendation_id":"rec-001","tenant_id":"tn-claims","product_line":"Insurance","aws_account_id":"111111111111","resource_id":"i-claimsapi01","service":"Amazon EC2","finding":"Over-provisioned instance","recommendation":"Downsize m6i.2xlarge to m6i.xlarge","estimated_monthly_savings":420,"status":"new"},
+  {"recommendation_id":"rec-002","tenant_id":"tn-payments","product_line":"Payments","aws_account_id":"333333333333","resource_id":"dynamodb/payments-ledger","service":"Amazon DynamoDB","finding":"Low utilization table","recommendation":"Review provisioned capacity and autoscaling policy","estimated_monthly_savings":780,"status":"accepted"},
+  {"recommendation_id":"rec-003","tenant_id":"tn-analytics","product_line":"Data","aws_account_id":"444444444444","resource_id":"redshift/analytics-prod","service":"Amazon Redshift","finding":"Idle cluster window","recommendation":"Add scheduled pause outside analytics hours","estimated_monthly_savings":1250,"status":"deferred"}
+]

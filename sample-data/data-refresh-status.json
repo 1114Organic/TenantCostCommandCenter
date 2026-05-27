@@ -1,0 +1,8 @@
+{
+  "last_successful_refresh_at": "2026-05-03T06:15:00Z",
+  "last_attempted_refresh_at": "2026-05-03T06:15:00Z",
+  "status": "success",
+  "source": "mock-cur",
+  "records_processed": 14,
+  "message": "Mock data refresh completed."
+}

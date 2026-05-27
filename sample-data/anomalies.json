@@ -1,0 +1,5 @@
+[
+  {"anomaly_id":"anom-001","tenant_id":"tn-payments","product_line":"Payments","start_date":"2026-05-02","end_date":"2026-05-02","service":"Amazon DynamoDB","aws_account_id":"333333333333","estimated_impact":280.4,"root_cause":"Read capacity increased above baseline","status":"investigating"},
+  {"anomaly_id":"anom-002","tenant_id":"tn-analytics","product_line":"Data","start_date":"2026-05-02","end_date":"2026-05-03","service":"Amazon Redshift","aws_account_id":"444444444444","estimated_impact":610.7,"root_cause":"Cluster resize event","status":"new"},
+  {"anomaly_id":"anom-003","tenant_id":"unallocated","product_line":"Unallocated","start_date":"2026-05-01","end_date":"2026-05-01","service":"Amazon EC2","aws_account_id":"666666666666","estimated_impact":275.9,"root_cause":"Missing tenant tag","status":"acknowledged"}
+]

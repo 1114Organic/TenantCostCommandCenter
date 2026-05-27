@@ -1,0 +1,6 @@
+[
+  {"budget_id":"bud-claims","tenant_id":"tn-claims","product_line":"Insurance","period":"monthly","amount":16000,"currency":"USD","thresholds":[50,80,100],"forecast_alert_enabled":true,"owner_email":"avery.chen@example.com"},
+  {"budget_id":"bud-payments","tenant_id":"tn-payments","product_line":"Payments","period":"monthly","amount":22000,"currency":"USD","thresholds":[50,80,100],"forecast_alert_enabled":true,"owner_email":"morgan.patel@example.com"},
+  {"budget_id":"bud-analytics","tenant_id":"tn-analytics","product_line":"Data","period":"monthly","amount":30000,"currency":"USD","thresholds":[50,80,100],"forecast_alert_enabled":true,"owner_email":"jordan.reyes@example.com"},
+  {"budget_id":"bud-mobile","tenant_id":"tn-mobile","product_line":"Digital","period":"monthly","amount":12500,"currency":"USD","thresholds":[50,80,100],"forecast_alert_enabled":true,"owner_email":"riley.brooks@example.com"}
+]

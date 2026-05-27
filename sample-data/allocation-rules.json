@@ -1,0 +1,4 @@
+[
+  {"rule_id":"rule-eks-control-plane","name":"EKS Control Plane Allocation","description":"Allocate EKS control plane costs by proportional pod cost.","cost_pool":"EKS control plane","allocation_method":"proportional_cost","effective_date":"2026-05-01","created_by":"finops-admin@example.com","created_at":"2026-05-01T08:00:00Z"},
+  {"rule_id":"rule-observability","name":"Observability Shared Cost","description":"Allocate shared logging and metrics by tenant count.","cost_pool":"Shared observability","allocation_method":"tenant_count","effective_date":"2026-05-01","created_by":"finops-admin@example.com","created_at":"2026-05-01T08:05:00Z"}
+]
