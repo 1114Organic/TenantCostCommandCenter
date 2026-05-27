@@ -2,6 +2,10 @@
 
 Self-service FinOps portal for multi-tenant Amazon EKS cost allocation, showback, budget visibility, anomalies, optimization recommendations, and tagging governance.
 
+## Preview
+
+![Tenant Cost Command Center dashboard](docs/assets/tenant-cost-command-center.jpg)
+
 ## What Is Included
 
 - `backend/`: FastAPI API with mock repositories, service-layer allocation logic, RBAC placeholders, CSV exports, and tests.
