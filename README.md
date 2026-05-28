@@ -44,6 +44,10 @@ The frontend defaults to `http://localhost:8000` for API calls. If the backend i
 - Budget burn, forecast risk, anomaly status workflow, recommendation status workflow, tagging compliance, allocation rules, refresh status, and CSV exports.
 - Mock authorization via `X-User-Role`, `X-Tenant-Ids`, and `X-Product-Lines` headers for integration testing.
 
+## Security Notes
+
+This MVP uses mock authorization headers and defaults local API requests to a FinOps admin role for demo ergonomics. Do not deploy this backend to a shared or public environment until enterprise authentication, production RBAC claims, and least-privilege API access are implemented.
+
 ## Next Build Steps
 
 1. Replace mock repositories with DynamoDB/Aurora-backed repositories.
